@@ -1,7 +1,7 @@
 redis==2.10.6
-Flask==0.12.2
+flask>=0.12.3
 Flask_RESTful==0.3.6
-requests==2.18.4
+requests>=2.20.0
 numpy==1.13.3
 beautifulsoup4==4.6.0
 pyzmq==17.0.0b3
