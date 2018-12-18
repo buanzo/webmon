@@ -1,0 +1,32 @@
+version: '3'
+services:
+  api:
+    build: ./api
+    environment:
+      PYTHONUNBUFFERED: 0
+    ports:
+     - "5001:5000"
+    links:
+     - redis
+     - dispatcher
+  executor:
+    build: ./executor
+    environment:
+      PYTHONUNBUFFERED: 0
+    links:
+     - redis
+     - dispatcher
+  dispatcher:
+    build: ./dispatcher
+    environment:
+      PYTHONUNBUFFERED: 0
+    links:
+     - redis
+  manager:
+    build: ./manager
+    environment:
+      PYTHONUNBUFFERED: 0
+    links:
+     - redis
+  redis:
+    image: redis

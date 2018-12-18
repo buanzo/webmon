@@ -1,0 +1,7 @@
+numpy==1.13.3
+redis==2.10.6
+requests==2.18.4
+lxml==4.1.0
+beautifulsoup4==4.6.0
+dnspython==1.15.0
+pyzmq==17.0.0b3

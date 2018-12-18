@@ -1,0 +1,6 @@
+*~
+*pyc
+DEADJOE
+tests/*
+.#*
+requirements.txt.old

@@ -1,0 +1,7 @@
+redis==2.10.6
+Flask==0.12.2
+Flask_RESTful==0.3.6
+requests==2.18.4
+numpy==1.13.3
+beautifulsoup4==4.6.0
+pyzmq==17.0.0b3
