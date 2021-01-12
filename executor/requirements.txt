@@ -1,7 +1,7 @@
 numpy==1.13.3
 redis==2.10.6
 requests>=2.20.0
-lxml==4.1.0
+lxml==4.6.2
 beautifulsoup4==4.6.0
 dnspython==1.15.0
 pyzmq==17.0.0b3
