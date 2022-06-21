@@ -1,4 +1,4 @@
-numpy==1.13.3
+numpy==1.22.0
 redis==2.10.6
 requests>=2.20.0
 lxml==4.6.5
