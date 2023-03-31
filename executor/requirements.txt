@@ -1,5 +1,5 @@
 numpy==1.22.0
-redis==4.5.3
+redis==4.5.4
 requests>=2.20.0
 lxml==4.9.1
 beautifulsoup4==4.6.0
